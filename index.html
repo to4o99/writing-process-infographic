@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing Process Infographic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .step-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .arrow-down {
+            width: 0; 
+            height: 0; 
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-top: 20px solid #cbd5e1;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-bold text-indigo-900 mb-4">From Idea to Final Product</h1>
+            <p class="text-xl text-indigo-600 font-light">The 4-Step Writing Framework</p>
+        </header>
+
+        <!-- Phase 1 -->
+        <div class="step-card bg-white rounded-xl overflow-hidden shadow-md border-l-8 border-blue-500 mb-6 relative">
+            <div class="p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
+                <div class="flex-shrink-0 bg-blue-100 p-6 rounded-full">
+                    <i class="fas fa-lightbulb text-4xl text-blue-600"></i>
+                </div>
+                <div class="flex-grow text-center md:text-left">
+                    <div class="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                        <h2 class="text-2xl font-bold text-gray-800">Phase 1: The "Brain Dump"</h2>
+                        <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-bold uppercase rounded-full self-center md:self-start">Mindset: Explorer</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 italic">"Organize the chaos."</p>
+                    <ul class="text-sm space-y-2 text-left bg-gray-50 p-4 rounded-lg">
+                        <li class="flex items-start"><i class="fas fa-check text-blue-500 mt-1 mr-2"></i> <strong>Capture:</strong> Write down the elevator pitch immediately.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-blue-500 mt-1 mr-2"></i> <strong>Research:</strong> Gather facts and quotes. Stack your bricks.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-blue-500 mt-1 mr-2"></i> <strong>Outline:</strong> Create the map (Intro &rarr; Points &rarr; Conclusion).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connector -->
+        <div class="arrow-down mb-6"></div>
+
+        <!-- Phase 2 -->
+        <div class="step-card bg-white rounded-xl overflow-hidden shadow-md border-l-8 border-yellow-500 mb-6 relative">
+            <div class="p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
+                <div class="flex-shrink-0 bg-yellow-100 p-6 rounded-full">
+                    <i class="fas fa-hammer text-4xl text-yellow-600"></i>
+                </div>
+                <div class="flex-grow text-center md:text-left">
+                    <div class="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                        <h2 class="text-2xl font-bold text-gray-800">Phase 2: The "Ugly Draft"</h2>
+                        <span class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-bold uppercase rounded-full self-center md:self-start">Mindset: Builder</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 italic">"Volume over quality. Turn off the editor."</p>
+                    <ul class="text-sm space-y-2 text-left bg-gray-50 p-4 rounded-lg">
+                        <li class="flex items-start"><i class="fas fa-check text-yellow-500 mt-1 mr-2"></i> <strong>Speed:</strong> Write fast. Ignore spelling. Don't look back.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-yellow-500 mt-1 mr-2"></i> <strong>Placeholders:</strong> Use [TK] or [Stat Here] instead of stopping.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-yellow-500 mt-1 mr-2"></i> <strong>Completion:</strong> Don't edit until the last period is typed.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connector -->
+        <div class="arrow-down mb-6"></div>
+
+        <!-- Phase 3 -->
+        <div class="step-card bg-white rounded-xl overflow-hidden shadow-md border-l-8 border-purple-500 mb-6 relative">
+            <div class="p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
+                <div class="flex-shrink-0 bg-purple-100 p-6 rounded-full">
+                    <i class="fas fa-cut text-4xl text-purple-600"></i>
+                </div>
+                <div class="flex-grow text-center md:text-left">
+                    <div class="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                        <h2 class="text-2xl font-bold text-gray-800">Phase 3: The Surgical Phase</h2>
+                        <span class="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-bold uppercase rounded-full self-center md:self-start">Mindset: Architect</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 italic">"Switch to critic mode."</p>
+                    <ul class="text-sm space-y-2 text-left bg-gray-50 p-4 rounded-lg">
+                        <li class="flex items-start"><i class="fas fa-check text-purple-500 mt-1 mr-2"></i> <strong>Cool Down:</strong> Step away for hours or a day. Get fresh eyes.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-purple-500 mt-1 mr-2"></i> <strong>Macro-Edit:</strong> Check flow, pacing, and logic first.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-purple-500 mt-1 mr-2"></i> <strong>Kill Darlings:</strong> Cut beautiful sentences that don't serve the point.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Connector -->
+        <div class="arrow-down mb-6"></div>
+
+        <!-- Phase 4 -->
+        <div class="step-card bg-white rounded-xl overflow-hidden shadow-md border-l-8 border-green-500 mb-12 relative">
+            <div class="p-6 md:p-8 flex flex-col md:flex-row items-center gap-6">
+                <div class="flex-shrink-0 bg-green-100 p-6 rounded-full">
+                    <i class="fas fa-sparkles text-4xl text-green-600"></i>
+                </div>
+                <div class="flex-grow text-center md:text-left">
+                    <div class="flex flex-col md:flex-row md:items-center gap-2 mb-2">
+                        <h2 class="text-2xl font-bold text-gray-800">Phase 4: The Polish</h2>
+                        <span class="px-3 py-1 bg-green-100 text-green-800 text-xs font-bold uppercase rounded-full self-center md:self-start">Mindset: Janitor</span>
+                    </div>
+                    <p class="text-gray-600 mb-4 italic">"Precision and presentation."</p>
+                    <ul class="text-sm space-y-2 text-left bg-gray-50 p-4 rounded-lg">
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <strong>Line Edit:</strong> Fix passive voice and weak adverbs.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <strong>Read Aloud:</strong> If you stumble, the reader will stumble.</li>
+                        <li class="flex items-start"><i class="fas fa-check text-green-500 mt-1 mr-2"></i> <strong>Final Proof:</strong> Read backwards to catch sneaky typos.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Summary -->
+        <div class="bg-indigo-900 text-white rounded-xl p-8 text-center shadow-lg">
+            <h3 class="text-2xl font-bold mb-4">Summary Checklist</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                <div class="p-3 bg-indigo-800 rounded">
+                    <div class="font-bold text-blue-300">Phase 1</div>
+                    <div>Explore & Outline</div>
+                </div>
+                <div class="p-3 bg-indigo-800 rounded">
+                    <div class="font-bold text-yellow-300">Phase 2</div>
+                    <div>Build Fast</div>
+                </div>
+                <div class="p-3 bg-indigo-800 rounded">
+                    <div class="font-bold text-purple-300">Phase 3</div>
+                    <div>Structure & Cut</div>
+                </div>
+                <div class="p-3 bg-indigo-800 rounded">
+                    <div class="font-bold text-green-300">Phase 4</div>
+                    <div>Polish & Shine</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="text-center mt-8 text-gray-400 text-sm">
+            <p>Generated for your creative process</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
